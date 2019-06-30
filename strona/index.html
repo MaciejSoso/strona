@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prosta Strona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="main-navigation">
+        <ul class="menu-list">
+            <li><a href="#About us" id="a">About us</a></li>
+            <li><a href="#Skills" id="s">Skills</a></li>
+            <li><a href="#Portfolio" id="p">Portfolio</a></li>
+            <li><a href="#Contact" id="c">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="Aboutus" class="About us">
+        <h1>About us</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint officia omnis dignissimos totam ipsa cumque dolore nobis officiis eum ratione, corrupti in eos reiciendis autem id aperiam sequi nemo tempore.
+        </p>
+    </section>
+    <section id="Skills" class="Skills">
+        <h1>Sekcja Skills</h1>
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+    </section>
+    <section id="Portfolio" class="Portfolio"> 
+        <h1>Portfolio</h1>
+        <div id="div5"></div><br>
+        <div id="div6"></div><br>
+        <div id="div7"></div><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+    <section id="Contact" class="Contact">
+        <h1>Maciej Czajka</h1>
+        <form>
+            <fieldset>
+              <legend>Dane kontaktowe:</legend>
+              Numer telefonu:<br>
+              <input type="text" name="phone number" value="232399723">
+              <br>
+              Adres email:<br>
+              <input type="text" name="mail" value="maciek12@onet.pl">
+              <br><br>
+            </fieldset>
+          </form>
+            <form action="/action_page.php">
+                <br>
+                Imię: <br>
+                <input type="text" name="firstname" required
+                pattern="[A-Z].* value=">
+                <br>
+                Temat:<br>
+                <input type="text" name="temat" required
+                pattern="[A-Z].* value=">
+                <br>
+                Napisz wiadomość:<br>
+                <input type="text" required
+                pattern="[A-Z].*" name="message" value="" style="width: 300px; height:70px;"><br>
+                <input type="submit" value="Wyślij" id="przycisk">
+            </form>
+    </section>
+
+</body>
+</html>
